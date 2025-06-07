@@ -18,11 +18,18 @@
     "@tailwindcss/vite": "^4.1.8",
     "dayjs": "^1.11.13",
     "eslint": "^9.27.0",
+    "exceljs": "^4.4.0",
+    "json2csv": "^6.0.0-alpha.2",
     "mssql": "^11.0.1",
     "nuxt": "^3.17.4",
     "tailwindcss": "^4.1.8",
     "typescript": "^5.8.3",
     "vue": "^3.5.15",
-    "vue-router": "^4.5.1"
+    "vue-router": "^4.5.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/json2csv": "^5.0.7",
+    "@types/mssql": "^9.1.7"
   }
 }

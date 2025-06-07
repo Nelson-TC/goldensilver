@@ -4,7 +4,11 @@
     <h2 class="text-2xl font-bold mb-6 text-pink-700 flex items-center gap-2">
       <span class="inline-block w-3 h-3 bg-pink-400 rounded-full"></span>Artículos
     </h2>
-    <NuxtLink to="/articulos/nuevo" class="mb-4 inline-block px-4 py-2 bg-pink-500 text-white rounded-lg font-semibold shadow hover:bg-pink-600 transition">Agregar Artículo</NuxtLink>
+    <div class="flex flex-wrap gap-4 mb-4">
+      <NuxtLink to="/articulos/nuevo" class="px-4 py-2 bg-pink-500 text-white rounded-lg font-semibold shadow hover:bg-pink-600 transition">Agregar Artículo</NuxtLink>
+      <a href="/api/articulos/export-csv" class="px-4 py-2 bg-green-500 text-white rounded-lg font-semibold shadow hover:bg-green-600 transition" download>Exportar CSV</a>
+      <a href="/api/articulos/export-xlsx" class="px-4 py-2 bg-yellow-500 text-white rounded-lg font-semibold shadow hover:bg-yellow-600 transition" download>Exportar Excel</a>
+    </div>
     <table class="w-full border-separate border-spacing-y-2">
       <thead>
         <tr class="bg-pink-100 text-pink-800">
